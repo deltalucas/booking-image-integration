@@ -1,0 +1,66 @@
+# General Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so  # C extensions
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build and Packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Testing & Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+hypothesis/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Machine Learning / Deep Learning
+data/  # Ignore entire dataset directory
+models/  # Model checkpoints and trained models
+
+# Logging & Debugging
+*.log
+debug.log
+
+# Editor and IDE Settings
+.vscode/
+.idea/
+*.swp  # Vim swap files
+*.sublime-project
+*.sublime-workspace
+
+# Configuration & Credentials
+config.json
+secrets.env
+.pdm.toml
+
+# Miscellaneous
+mypy_cache/
+pytype/
+cython_debug/
+
+# macOS-specific files
+.DS_Store
+
+# Additions for Google Colab (Optional)
+drive/
