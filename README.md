@@ -1,6 +1,6 @@
-# 🚀 ML Project Template
+# Booking.com Image Gathering and Integration into TraffickCam
 
-Welcome to the **ML Project Template**! 🎯 This repository is designed to **keep your project code organized** while providing **pre-written setup scripts** to help you run your project seamlessly across multiple environments:
+This directory contains the code to gather data from every hotel in the United States from Booking.com. The data includes hotel name, gps coordinates, hotel address (including city, state, etc.), rating, and all the links to the hotel's images. The directory also contains code to download all the images from the links gathered onto the server. The ultimate goal of this project is to integrate all the images of booking.com hotels into the existing TraffickCam hotel image corpus.
 
 - ✅ **Jupyter Notebook Server (GPU3)**
 - ✅ **Local Code Editors (VS Code, PyCharm, etc.)**
